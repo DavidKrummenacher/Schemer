@@ -35,6 +35,7 @@ window/dpi/allow_hidpi=true
 [gui]
 
 theme/custom="res://common/default_theme.tres"
+theme/custom_font="res://common/fonts/sans_regular.tres"
 
 [physics]
 
