@@ -12,9 +12,23 @@ config_version=4
 
 config/name="Schemer"
 config/description="Visual data modeling and management tool made in Godot"
+run/main_scene="res://main.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="Kruda/Schemer"
-config/icon="res://icon.png"
+boot_splash/image="res://application/splash.png"
+boot_splash/fullsize=false
+boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
+config/icon="res://application/icon.png"
+config/macos_native_icon="res://application/icon.icns"
+config/windows_native_icon="res://application/icon.ico"
+
+[audio]
+
+default_bus_layout="res://common/default_bus_layout.tres"
+
+[gui]
+
+theme/custom="res://common/default_theme.tres"
 
 [physics]
 
@@ -25,4 +39,4 @@ common/enable_pause_aware_picking=true
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://common/default_env.tres"
