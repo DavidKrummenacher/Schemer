@@ -1,14 +1,49 @@
-[gd_resource type="Theme" load_steps=77 format=2]
+[gd_resource type="Theme" load_steps=113 format=2]
 
-[ext_resource path="res://common/fonts/sans_regular.tres" type="DynamicFont" id=1]
+[ext_resource path="res://common/fonts/regular.tres" type="DynamicFont" id=1]
 [ext_resource path="res://common/styles/window_stylebox.tres" type="StyleBox" id=2]
+[ext_resource path="res://common/icons/gui/icon_GUI_checked.svg" type="Texture" id=3]
 [ext_resource path="res://common/icons/close.svg" type="Texture" id=4]
 [ext_resource path="res://common/icons/minimap.svg" type="Texture" id=5]
 [ext_resource path="res://common/icons/zoom_reset.svg" type="Texture" id=6]
 [ext_resource path="res://common/icons/zoom_less.svg" type="Texture" id=7]
 [ext_resource path="res://common/icons/snap.svg" type="Texture" id=8]
 [ext_resource path="res://common/icons/zoom_more.svg" type="Texture" id=9]
-[ext_resource path="res://common/fonts/sans_regular_large.tres" type="DynamicFont" id=10]
+[ext_resource path="res://common/fonts/large.tres" type="DynamicFont" id=10]
+[ext_resource path="res://common/icons/gui/icon_GUI_radio_unchecked.svg" type="Texture" id=11]
+[ext_resource path="res://common/icons/gui/icon_GUI_radio_checked.svg" type="Texture" id=12]
+[ext_resource path="res://common/icons/gui/icon_GUI_unchecked.svg" type="Texture" id=13]
+[ext_resource path="res://common/icons/reload.svg" type="Texture" id=14]
+[ext_resource path="res://common/icons/gui/icon_GUI_toggle_on.svg" type="Texture" id=15]
+[ext_resource path="res://common/icons/file.svg" type="Texture" id=16]
+[ext_resource path="res://common/icons/gui/icon_GUI_toggle_off.svg" type="Texture" id=17]
+[ext_resource path="res://common/icons/folder.svg" type="Texture" id=18]
+[ext_resource path="res://common/icons/gui/icon_GUI_slider_grabber_hl.svg" type="Texture" id=19]
+[ext_resource path="res://common/icons/gui/icon_GUI_slider_grabber.svg" type="Texture" id=20]
+[ext_resource path="res://common/icons/gui/icon_GUI_h_tick.svg" type="Texture" id=21]
+[ext_resource path="res://common/icons/gui/icon_GUI_visibility_hidden.svg" type="Texture" id=22]
+[ext_resource path="res://common/icons/clear.svg" type="Texture" id=23]
+[ext_resource path="res://common/icons/gui/icon_GUI_option_arrow.svg" type="Texture" id=24]
+[ext_resource path="res://common/icons/gui/icon_GUI_visibility_xray.svg" type="Texture" id=25]
+[ext_resource path="res://common/icons/gui/icon_GUI_visibility_visible.svg" type="Texture" id=26]
+[ext_resource path="res://common/icons/gui/icon_GUI_spinbox_updown.svg" type="Texture" id=27]
+[ext_resource path="res://common/icons/gui/icon_GUI_tab_menu.svg" type="Texture" id=28]
+[ext_resource path="res://common/icons/gui/icon_GUI_tab.svg" type="Texture" id=29]
+[ext_resource path="res://common/icons/gui/icon_GUI_tab_menu_hl.svg" type="Texture" id=30]
+[ext_resource path="res://common/icons/gui/icon_GUI_space.svg" type="Texture" id=31]
+[ext_resource path="res://common/icons/gui/icon_GUI_tree_arrow_down.svg" type="Texture" id=32]
+[ext_resource path="res://common/icons/gui/icon_GUI_tree_arrow_right.svg" type="Texture" id=33]
+[ext_resource path="res://common/icons/gui/icon_GUI_tree_updown.svg" type="Texture" id=34]
+[ext_resource path="res://common/icons/gui/icon_GUI_v_tick.svg" type="Texture" id=35]
+[ext_resource path="res://common/fonts/mono_regular.tres" type="DynamicFont" id=36]
+[ext_resource path="res://common/icons/gui/icon_GUI_progress_bar.svg" type="Texture" id=37]
+[ext_resource path="res://common/icons/gui/icon_GUI_scroll_grabber_hl.svg" type="Texture" id=38]
+[ext_resource path="res://common/icons/gui/icon_GUI_scroll_bg.svg" type="Texture" id=39]
+[ext_resource path="res://common/icons/gui/icon_GUI_scroll_grabber.svg" type="Texture" id=40]
+[ext_resource path="res://common/fonts/italic.tres" type="DynamicFont" id=41]
+[ext_resource path="res://common/fonts/bold_italic.tres" type="DynamicFont" id=42]
+[ext_resource path="res://common/icons/gui/icon_GUI_scroll_grabber_pressed.svg" type="Texture" id=43]
+[ext_resource path="res://common/fonts/bold.tres" type="DynamicFont" id=44]
 
 [sub_resource type="StyleBoxFlat" id=1]
 content_margin_left = 6.0
@@ -246,6 +281,8 @@ content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
+texture = ExtResource( 40 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 6.0
 margin_right = 6.0
 margin_top = 6.0
@@ -256,6 +293,8 @@ content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
+texture = ExtResource( 38 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 5.0
 margin_right = 5.0
 margin_top = 5.0
@@ -266,6 +305,8 @@ content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
+texture = ExtResource( 43 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 6.0
 margin_right = 6.0
 margin_top = 6.0
@@ -276,6 +317,8 @@ content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
 content_margin_bottom = 0.0
+texture = ExtResource( 39 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 5.0
 margin_right = 5.0
 margin_top = 5.0
@@ -428,6 +471,8 @@ content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
 content_margin_bottom = 0.0
+texture = ExtResource( 37 )
+region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 4.0
 margin_right = 4.0
 margin_top = 4.0
@@ -443,7 +488,23 @@ margin_right = 6.0
 margin_top = 6.0
 margin_bottom = 6.0
 
-[sub_resource type="StyleBoxEmpty" id=69]
+[sub_resource type="StyleBoxEmpty" id=95]
+content_margin_left = -2.0
+content_margin_right = -2.0
+content_margin_top = -2.0
+content_margin_bottom = -2.0
+
+[sub_resource type="StyleBoxFlat" id=96]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0.15, 0.1725, 0.2325, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.1, 0.115, 0.155, 1 )
 
 [sub_resource type="StyleBoxFlat" id=70]
 content_margin_left = 5.0
@@ -577,6 +638,8 @@ content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
+texture = ExtResource( 40 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 6.0
 margin_right = 6.0
 margin_top = 6.0
@@ -587,6 +650,8 @@ content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
+texture = ExtResource( 38 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 5.0
 margin_right = 5.0
 margin_top = 5.0
@@ -597,6 +662,8 @@ content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
+texture = ExtResource( 43 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 6.0
 margin_right = 6.0
 margin_top = 6.0
@@ -607,6 +674,8 @@ content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
 content_margin_bottom = 0.0
+texture = ExtResource( 39 )
+region_rect = Rect2( 0, 0, 12, 12 )
 margin_left = 5.0
 margin_right = 5.0
 margin_top = 5.0
@@ -679,13 +748,13 @@ CheckBox/colors/font_color_pressed = Color( 0.41, 0.61, 0.91, 1 )
 CheckBox/colors/icon_color_hover = Color( 1.15, 1.15, 1.15, 1 )
 CheckBox/constants/check_vadjust = 0
 CheckBox/constants/hseparation = 4
-CheckBox/icons/checked = null
+CheckBox/icons/checked = ExtResource( 3 )
 CheckBox/icons/checked_disabled = null
-CheckBox/icons/radio_checked = null
+CheckBox/icons/radio_checked = ExtResource( 12 )
 CheckBox/icons/radio_checked_disabled = null
-CheckBox/icons/radio_unchecked = null
+CheckBox/icons/radio_unchecked = ExtResource( 11 )
 CheckBox/icons/radio_unchecked_disabled = null
-CheckBox/icons/unchecked = null
+CheckBox/icons/unchecked = ExtResource( 13 )
 CheckBox/icons/unchecked_disabled = null
 CheckBox/styles/disabled = SubResource( 6 )
 CheckBox/styles/hover = SubResource( 6 )
@@ -700,9 +769,9 @@ CheckButton/colors/font_color_pressed = Color( 0.41, 0.61, 0.91, 1 )
 CheckButton/colors/icon_color_hover = Color( 1.15, 1.15, 1.15, 1 )
 CheckButton/constants/check_vadjust = 0
 CheckButton/constants/hseparation = 4
-CheckButton/icons/off = null
+CheckButton/icons/off = ExtResource( 17 )
 CheckButton/icons/off_disabled = null
-CheckButton/icons/on = null
+CheckButton/icons/on = ExtResource( 15 )
 CheckButton/icons/on_disabled = null
 CheckButton/styles/disabled = SubResource( 7 )
 CheckButton/styles/focus = null
@@ -726,10 +795,10 @@ Dialogs/constants/button_margin = 32
 Dialogs/constants/margin = 8
 FileDialog/colors/files_disabled = Color( 1, 1, 1, 0.3 )
 FileDialog/colors/folder_icon_modulate = Color( 0.587, 0.727, 0.937, 1 )
-FileDialog/icons/file = null
-FileDialog/icons/folder = null
+FileDialog/icons/file = ExtResource( 16 )
+FileDialog/icons/folder = ExtResource( 18 )
 FileDialog/icons/parent_folder = null
-FileDialog/icons/reload = null
+FileDialog/icons/reload = ExtResource( 14 )
 FileDialog/icons/toggle_hidden = null
 Fonts/fonts/large = ExtResource( 10 )
 Fonts/fonts/normal = ExtResource( 1 )
@@ -786,10 +855,10 @@ HScrollBar/styles/grabber_pressed = SubResource( 38 )
 HScrollBar/styles/scroll = SubResource( 41 )
 HScrollBar/styles/scroll_focus = SubResource( 42 )
 HSeparator/styles/separator = SubResource( 43 )
-HSlider/icons/grabber = null
+HSlider/icons/grabber = ExtResource( 20 )
 HSlider/icons/grabber_disabled = null
-HSlider/icons/grabber_highlight = null
-HSlider/icons/tick = null
+HSlider/icons/grabber_highlight = ExtResource( 19 )
+HSlider/icons/tick = ExtResource( 21 )
 HSlider/styles/grabber_area = SubResource( 44 )
 HSlider/styles/grabber_area_highlight = SubResource( 45 )
 HSlider/styles/slider = SubResource( 46 )
@@ -825,7 +894,7 @@ LineEdit/colors/font_color_selected = Color( 1, 1, 1, 1 )
 LineEdit/colors/font_color_uneditable = Color( 1, 1, 1, 0.65 )
 LineEdit/colors/read_only = Color( 1, 1, 1, 0.3 )
 LineEdit/colors/selection_color = Color( 0.41, 0.61, 0.91, 0.4 )
-LineEdit/icons/clear = null
+LineEdit/icons/clear = ExtResource( 23 )
 LineEdit/styles/focus = SubResource( 2 )
 LineEdit/styles/normal = SubResource( 4 )
 LineEdit/styles/read_only = SubResource( 1 )
@@ -856,7 +925,7 @@ OptionButton/colors/icon_color_hover = Color( 1.15, 1.15, 1.15, 1 )
 OptionButton/constants/arrow_margin = 4
 OptionButton/constants/hseparation = 4
 OptionButton/constants/modulate_arrow = 1
-OptionButton/icons/arrow = null
+OptionButton/icons/arrow = ExtResource( 24 )
 OptionButton/styles/disabled = SubResource( 1 )
 OptionButton/styles/focus = SubResource( 2 )
 OptionButton/styles/hover = SubResource( 3 )
@@ -871,14 +940,14 @@ PopupMenu/colors/font_color_disabled = Color( 1, 1, 1, 0.3 )
 PopupMenu/colors/font_color_hover = Color( 0.88, 0.8845, 0.8965, 1 )
 PopupMenu/colors/font_color_separator = Color( 1, 1, 1, 0.3 )
 PopupMenu/constants/vseparation = 5
-PopupMenu/icons/checked = null
-PopupMenu/icons/radio_checked = null
-PopupMenu/icons/radio_unchecked = null
+PopupMenu/icons/checked = ExtResource( 3 )
+PopupMenu/icons/radio_checked = ExtResource( 12 )
+PopupMenu/icons/radio_unchecked = ExtResource( 11 )
 PopupMenu/icons/submenu = null
-PopupMenu/icons/unchecked = null
-PopupMenu/icons/visibility_hidden = null
-PopupMenu/icons/visibility_visible = null
-PopupMenu/icons/visibility_xray = null
+PopupMenu/icons/unchecked = ExtResource( 13 )
+PopupMenu/icons/visibility_hidden = ExtResource( 22 )
+PopupMenu/icons/visibility_visible = ExtResource( 26 )
+PopupMenu/icons/visibility_xray = ExtResource( 25 )
 PopupMenu/styles/disabled = SubResource( 7 )
 PopupMenu/styles/focus = SubResource( 7 )
 PopupMenu/styles/hover = SubResource( 58 )
@@ -894,14 +963,24 @@ ProgressBar/colors/font_color = Color( 0.8, 0.8075, 0.8275, 1 )
 ProgressBar/styles/bg = SubResource( 64 )
 ProgressBar/styles/fg = SubResource( 67 )
 RichTextLabel/colors/default_color = Color( 0.8, 0.8075, 0.8275, 1 )
+RichTextLabel/colors/font_color_selected = Color( 0.49, 0.49, 0.49, 1 )
 RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+RichTextLabel/colors/selection_color = Color( 0.1, 0.1, 1, 0.8 )
+RichTextLabel/constants/line_separation = 1
 RichTextLabel/constants/shadow_as_outline = 0
-RichTextLabel/constants/shadow_offset_x = 1
-RichTextLabel/constants/shadow_offset_y = 1
-RichTextLabel/styles/focus = SubResource( 69 )
-RichTextLabel/styles/normal = SubResource( 18 )
+RichTextLabel/constants/shadow_offset_x = 2
+RichTextLabel/constants/shadow_offset_y = 2
+RichTextLabel/constants/table_hseparation = 3
+RichTextLabel/constants/table_vseparation = 3
+RichTextLabel/fonts/bold_font = ExtResource( 44 )
+RichTextLabel/fonts/bold_italics_font = ExtResource( 42 )
+RichTextLabel/fonts/italics_font = ExtResource( 41 )
+RichTextLabel/fonts/mono_font = ExtResource( 36 )
+RichTextLabel/fonts/normal_font = ExtResource( 1 )
+RichTextLabel/styles/focus = SubResource( 95 )
+RichTextLabel/styles/normal = SubResource( 96 )
 ScrollContainer/styles/bg = null
-SpinBox/icons/updown = null
+SpinBox/icons/updown = ExtResource( 27 )
 TabContainer/colors/font_color_bg = Color( 1, 1, 1, 0.3 )
 TabContainer/colors/font_color_fg = Color( 0.8, 0.8075, 0.8275, 1 )
 TabContainer/constants/side_margin = 0
@@ -909,8 +988,8 @@ TabContainer/icons/decrement = null
 TabContainer/icons/decrement_highlight = null
 TabContainer/icons/increment = null
 TabContainer/icons/increment_highlight = null
-TabContainer/icons/menu = null
-TabContainer/icons/menu_highlight = null
+TabContainer/icons/menu = ExtResource( 28 )
+TabContainer/icons/menu_highlight = ExtResource( 30 )
 TabContainer/styles/panel = SubResource( 70 )
 TabContainer/styles/panel_odd = SubResource( 71 )
 TabContainer/styles/tab_bg = SubResource( 72 )
@@ -920,7 +999,7 @@ TabContainer/styles/tab_selected_odd = SubResource( 75 )
 Tabs/colors/font_color_bg = Color( 1, 1, 1, 0.3 )
 Tabs/colors/font_color_fg = Color( 0.8, 0.8075, 0.8275, 1 )
 Tabs/constants/hseparation = 4
-Tabs/icons/close = null
+Tabs/icons/close = ExtResource( 4 )
 Tabs/icons/decrement = null
 Tabs/icons/decrement_highlight = null
 Tabs/icons/increment = null
@@ -936,8 +1015,8 @@ TextEdit/colors/font_color_readonly = Color( 1, 1, 1, 0.65 )
 TextEdit/colors/selection_color = Color( 0.41, 0.61, 0.91, 0.4 )
 TextEdit/icons/fold = null
 TextEdit/icons/folded = null
-TextEdit/icons/space = null
-TextEdit/icons/tab = null
+TextEdit/icons/space = ExtResource( 31 )
+TextEdit/icons/tab = ExtResource( 29 )
 TextEdit/styles/completion = null
 TextEdit/styles/focus = SubResource( 3 )
 TextEdit/styles/normal = SubResource( 4 )
@@ -969,12 +1048,12 @@ Tree/constants/item_margin = 12
 Tree/constants/scroll_border = 40
 Tree/constants/scroll_speed = 12
 Tree/constants/vseparation = 4
-Tree/icons/arrow = null
-Tree/icons/arrow_collapsed = null
-Tree/icons/checked = null
+Tree/icons/arrow = ExtResource( 32 )
+Tree/icons/arrow_collapsed = ExtResource( 33 )
+Tree/icons/checked = ExtResource( 3 )
 Tree/icons/select_arrow = null
-Tree/icons/unchecked = null
-Tree/icons/updown = null
+Tree/icons/unchecked = ExtResource( 13 )
+Tree/icons/updown = ExtResource( 34 )
 Tree/styles/bg = SubResource( 18 )
 Tree/styles/bg_focus = SubResource( 51 )
 Tree/styles/button_pressed = SubResource( 77 )
@@ -1002,10 +1081,10 @@ VScrollBar/styles/grabber_pressed = SubResource( 85 )
 VScrollBar/styles/scroll = SubResource( 86 )
 VScrollBar/styles/scroll_focus = SubResource( 87 )
 VSeparator/styles/separator = SubResource( 88 )
-VSlider/icons/grabber = null
+VSlider/icons/grabber = ExtResource( 20 )
 VSlider/icons/grabber_disabled = null
-VSlider/icons/grabber_highlight = null
-VSlider/icons/tick = null
+VSlider/icons/grabber_highlight = ExtResource( 19 )
+VSlider/icons/tick = ExtResource( 35 )
 VSlider/styles/grabber_area = SubResource( 89 )
 VSlider/styles/grabber_area_highlight = SubResource( 90 )
 VSlider/styles/slider = SubResource( 91 )

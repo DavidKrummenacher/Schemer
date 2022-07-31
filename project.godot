@@ -18,7 +18,7 @@ config/custom_user_dir_name="Kruda/Schemer"
 boot_splash/image="res://application/splash.png"
 boot_splash/fullsize=false
 boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
-config/icon="res://application/icon.png"
+config/icon="res://application/icon.svg"
 config/macos_native_icon="res://application/icon.icns"
 config/windows_native_icon="res://application/icon.ico"
 
@@ -35,7 +35,7 @@ window/dpi/allow_hidpi=true
 [gui]
 
 theme/custom="res://common/default_theme.tres"
-theme/custom_font="res://common/fonts/sans_regular.tres"
+theme/custom_font="res://common/fonts/regular.tres"
 
 [physics]
 
